@@ -1,0 +1,67 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+div.grouping {
+  width: var(--width);
+  height: var(--height);
+}
+
+div.grouping > div.first {
+  width: var(--width);
+  height: 90px;
+  text-align: center;
+}
+div.grouping > div.first > div {
+  padding-top: 25px;
+}
+div.grouping > div.first > div > h3 {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: iransans;
+}
+div.grouping > div.second {
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+}
+div.grouping > div.second > div.top {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+div.grouping > div.second > div.top > a {
+  text-decoration: none;
+  text-align: center;
+  font-family: iransans;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+div.grouping > div.second > div.top > a > img {
+  width: 170px;
+  height: 170px;
+}
+div.grouping > div.third {
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+}
+div.grouping > div.third > div.bottom {
+  display: inline-block;
+
+  padding: 20px;
+}
+div.grouping > div.third > div.bottom > a {
+  text-decoration: none;
+  text-align: center;
+  font-family: iransans;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+div.grouping > div.third > div.bottom > a > img {
+  width: 170px;
+  height: 170px;
+}

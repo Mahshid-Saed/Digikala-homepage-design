@@ -1,0 +1,170 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+div.digiplus {
+  width: 1500px;
+  height: 430px;
+  border-radius: 20px;
+  background-color: #941b80;
+  margin: 0 auto;
+}
+div.digiplus > div.right {
+  width: 487px;
+  height: var(--height);
+  display: inline-block;
+}
+div.digiplus > div.right > div.digiplus-logo {
+  width: inherit;
+  height: auto;
+  margin-right: 30px;
+}
+div.digiplus > div.right > div.digiplus-logo > a > img {
+  width: 140px;
+  height: auto;
+  margin-top: 40px;
+}
+div.digiplus > div.right > h3 {
+  color: white;
+  font-family: iransans;
+  padding-top: 9px;
+  margin-bottom: 5px;
+  padding-right: 30px;
+}
+div.digiplus > div.right > div.membership {
+  display: inline-block;
+  width: 130px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-right: 30px;
+  padding-top: 8px;
+  margin-top: 40px;
+}
+div.digiplus > div.right > div.membership > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: iransans;
+  color: white;
+  padding-left: 2px;
+}
+div.digiplus > div.right > div.plus-widget > img {
+  width: 420px;
+  height: 370px;
+  margin-right: 100px;
+  margin-top: -120px;
+}
+div.digiplus > div.center {
+  display: inline-block;
+  width: 490px;
+  height: 400px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 35px;
+  position: relative;
+}
+div.digiplus > div.center > div.headercenter {
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+}
+div.digiplus > div.center > div.headercenter > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: iransans;
+  color: rgb(0, 0, 0);
+  padding-right: 21px;
+}
+div.digiplus > div.center > div.headercenter > a > i {
+  font-size: 16px;
+  font-weight: 300;
+  color: #751465;
+  padding-left: 2px;
+}
+div.digiplus > div.center > div.headercenter > a:nth-child(2) {
+  padding-right: 200px;
+  color: #751465;
+}
+div.digiplus > div.center > div.headercenter > a:nth-child(2) > i {
+  font-size: 20px;
+  font-weight: 800;
+  color: #751465;
+  padding-right: 5px;
+}
+div.digiplus > div.center > div.product {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+}
+
+div.digiplus > div.center > div.product > div.top > a > img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+div.digiplus > div.center > div.product > div.bottom > a > img {
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+}
+div.digiplus > div.left {
+  display: inline-block;
+  width: 490px;
+  height: 400px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 35px;
+  position: relative;
+}
+div.digiplus > div.left > div.headercenter {
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+}
+
+div.digiplus > div.left > div.headercenter > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: iransans;
+  color: rgb(0, 0, 0);
+  padding-right: 21px;
+}
+div.digiplus > div.left > div.headercenter > a > i {
+  font-size: 16px;
+  font-weight: 300;
+  color: #751465;
+  padding-left: 2px;
+}
+div.digiplus > div.left > div.headercenter > a:nth-child(2) {
+  padding-right: 200px;
+  color: #751465;
+}
+div.digiplus > div.left > div.headercenter > a:nth-child(2) > i {
+  font-size: 20px;
+  font-weight: 800;
+  color: #751465;
+  padding-right: 5px;
+}
+div.digiplus > div.left > div.product {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+}
+div.digiplus > div.left > div.product > div.top > a > img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+div.digiplus > div.left > div.product > div.bottom > a > img {
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+}

@@ -1,0 +1,76 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+div.offers {
+  width: 1500px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #edefed;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+div.offers > div.right {
+  width: auto;
+  height: var(--height);
+  display: inline-block;
+}
+div.offers > div.right > a {
+  padding: 5px;
+}
+div.offers > div.right > a > img.first {
+  margin-top: 23px;
+}
+div.offers > div.right > a > img.second {
+  margin-bottom: 15px;
+}
+
+div.offers > div.right > a:nth-child(3) {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: iransans;
+  color: rgb(255, 255, 255);
+  background-color: #39ae00;
+  border-radius: 20px;
+  position: relative;
+  bottom: 22px;
+}
+div.offers > div.left {
+  height: var(--height);
+  float: left;
+}
+div.offers > div.left > a > img {
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  padding: 5px;
+  margin-top: 15px;
+}
+div.offers > div.left > a {
+  padding: 9px;
+}
+div.offers > div.left > a:nth-child(7) {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: iransans;
+  color: rgb(0, 92, 11);
+  background-color: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  bottom: 25px;
+  left: 6px;
+}
+
+div.offers2 {
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.offers2 > a > img {
+  width: 350px;
+  height: 240px;
+  padding-left: 3px;
+  border-radius: 25px;
+}

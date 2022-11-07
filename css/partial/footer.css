@@ -1,0 +1,434 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+div.adthird {
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+  margin-top: 10px;
+}
+div.adthird > a > img {
+  width: 80%;
+  height: 170px;
+  border-radius: 20px;
+}
+
+div.readable {
+  width: var(--width);
+  height: var(--height);
+  display: inline-block;
+}
+div.readable > div.top {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+div.readable > div.top > h3 {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-family: iransans;
+  padding-top: 19px;
+  margin-bottom: 5px;
+}
+div.readable > div.top > a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: iransans;
+  color: #00bfd6;
+  position: absolute;
+  left: 0;
+  padding-top: 19px;
+}
+div.readable > div.readablecontent {
+  width: var(--width);
+  height: var(--height);
+  text-align: center;
+}
+div.readable > div.readablecontent > div.first {
+  display: inline-block;
+  width: 370px;
+  height: 280px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  line-height: 33px;
+  margin-left: 8px;
+}
+div.readable > div.readablecontent > div.first > a > img {
+  width: 370px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div.readable > div.readablecontent > div.first > p {
+  font-family: iransans;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 12px;
+}
+div.readable > div.readablecontent > div.second {
+  display: inline-block;
+  width: 370px;
+  height: 280px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  line-height: 33px;
+  margin-left: 8px;
+}
+div.readable > div.readablecontent > div.second > a > img {
+  width: 370px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div.readable > div.readablecontent > div.second > p {
+  font-family: iransans;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 13px;
+}
+div.readable > div.readablecontent > div.third {
+  display: inline-block;
+  width: 370px;
+  height: 280px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  line-height: 33px;
+  margin-left: 8px;
+}
+div.readable > div.readablecontent > div.third > a > img {
+  width: 370px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div.readable > div.readablecontent > div.third > p {
+  font-family: iransans;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 12px;
+}
+div.readable > div.readablecontent > div.fourth {
+  display: inline-block;
+  width: 370px;
+  height: 280px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+div.readable > div.readablecontent > div.fourth > a > img {
+  width: 370px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div.readable > div.readablecontent > div.fourth > p {
+  font-family: iransans;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 12px;
+}
+div.footer {
+  width: var(--width);
+  height: var(--height);
+  margin-top: 50px;
+}
+div.footer > div.heading {
+  display: inline-block;
+  width: var(--width);
+  height: var(--height);
+}
+div.footer > div.heading > div.logofooter {
+  width: 80%;
+  height: var(--height);
+  display: inline-block;
+}
+div.footer > div.heading > div.logofooter > a > img {
+  width: 136px;
+  height: auto;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+div.footer > div.heading > div.logofooter > p {
+  font-family: iransans;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 50px;
+  margin-top: 12px;
+}
+div.footer > div.heading > div.backtotop {
+  display: inline-block;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  padding: 8px 16px;
+  color: rgb(98, 98, 98);
+}
+div.footer > div.heading > div.backtotop > a {
+  text-decoration: none;
+  font-family: iransans;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 16px;
+  color: rgb(98, 98, 98);
+  scroll-behavior: smooth;
+}
+div.footer > div.heading > div.backtotop > a > i {
+  padding-right: 10px;
+}
+div.footer > div.possibilities {
+  display: inline-block;
+  width: var(--width);
+  height: 200px;
+  text-align: center;
+}
+div.footer > div.possibilities > div.items {
+  width: max-content;
+  height: var(--height);
+  text-align: center;
+
+  display: inline-block;
+  padding: 60px;
+}
+div.footer > div.possibilities > div.items > a {
+  text-decoration: none;
+  font-family: iransans;
+  font-size: 12px;
+  color: rgb(98, 98, 98);
+}
+div.footer > div.possibilities > div.items > a > img {
+  width: 56px;
+  height: 56px;
+}
+div.footer > div.possibilities > a > h4 {
+  display: inline-block;
+}
+div.footer > div.guide {
+  display: inline-block;
+  width: var(--width);
+  height: max-content;
+  text-align: center;
+}
+div.footer > div.guide > div.right {
+  width: auto;
+  height: var(--height);
+  display: inline-block;
+  margin-left: 60px;
+}
+
+div.footer > div.guide > div.right > div.items {
+  display: inline-block;
+  width: max-content;
+  height: var(--height);
+  margin: 0 40px 0 10px;
+}
+div.footer > div.guide > div.right > div.items:nth-child(2) {
+  line-height: 40px;
+}
+div.footer > div.guide > div.right > div.items:nth-child(3) {
+  line-height: 40px;
+}
+div.footer > div.guide > div.right > div.items:nth-child(1) {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+div.footer > div.guide > div.right > div.items > a {
+  text-decoration: none;
+  font-family: iransans;
+}
+div.footer > div.guide > div.right > div.items > a > h2 {
+  padding-bottom: 7px;
+  font-size: 20px;
+  color: black;
+}
+div.footer > div.guide > div.right > div.items > a > h3 {
+  padding-bottom: 4px;
+  font-size: 16px;
+  color: #a1a3a8;
+}
+div.footer > div.guide > div.left {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+div.footer > div.guide > div.left > h3 {
+  font-family: iransans;
+  font-size: 20px;
+  color: black;
+  padding-bottom: 20px;
+  text-align: right;
+}
+div.footer > div.guide > div.left > div.social {
+  width: 300px;
+  height: auto;
+  padding-bottom: 20px;
+  text-align: right;
+}
+div.social > a.fa-instagram,
+div.social > a.fa-twitter,
+div.social > a.fa-linkedin,
+div.social > a.fa-youtube {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 30px;
+  color: rgb(136, 149, 149);
+}
+div.social > a.fa-youtube:hover {
+  color: rgb(255, 0, 0);
+}
+div.social > a.fa-linkedin:hover {
+  color: #0a63bc;
+}
+div.social > a.fa-twitter:hover {
+  color: #1c96e8;
+}
+div.social > a.fa-instagram:hover {
+  color: #f70276;
+}
+div.contact {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 25px;
+  text-align: right;
+}
+div.contact > form {
+  padding: 11px;
+  margin: 0 auto;
+}
+div.contact > form > input[type="text"],
+div.contact > form > input[type="email"] {
+  width: 400px;
+  height: 40px;
+  margin: 1px auto;
+  border: 1px solid #bab5b5;
+  border-radius: 5px;
+}
+label {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: iransans;
+}
+div.contact > form > input[type="submit"] {
+  width: 40px;
+  height: 35px;
+  border: #bab5b5;
+  background-color: rgb(203, 208, 208);
+  font-family: iransans;
+  border-radius: 5px;
+}
+div.footer > div.application {
+  width: 90%;
+  height: min-content;
+  background-color: #202e50;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+div.footer > div.application > div.right {
+  width: 40%;
+  height: min-content;
+  display: inline-flex;
+}
+div.footer > div.application > div.right > img {
+  width: 55px;
+  height: 55px;
+  margin: 24px 20px 20px;
+}
+div.footer > div.application > div.right > h3 {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: iransans;
+  color: white;
+  margin-top: 40px;
+}
+div.footer > div.application > div.left {
+  display: inline-block;
+  margin-top: 10px;
+}
+div.footer > div.application > div.left > a {
+  padding: 8px;
+}
+div.footer > div.application > div.left > a > img {
+  width: 180px;
+  height: 55px;
+}
+div.footer > div.description {
+  width: var(--width);
+  height: var(--height);
+  margin-top: 15px;
+  border: 1px solid #81818131;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+div.footer > div.description > div.right {
+  width: 40%;
+  height: var(--height);
+  display: inline-block;
+}
+div.footer > div.description > div.right > h3 {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: iransans;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
+  margin-right: 40px;
+}
+div.footer > div.description > div.right > p {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: iransans;
+  color: #81878f;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+div.footer > div.description > div.right > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: iransans;
+  color: #109aaf;
+  margin-right: 40px;
+}
+div.footer > div.description > div.right > a > i {
+  font-size: 14px;
+  font-weight: 800;
+  color: #109aaf;
+}
+div.footer > div.description > div.left {
+  width: 50%;
+  height: var(--height);
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+div.footer > div.description > div.left > div {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #81878f;
+  border-radius: 12px;
+  text-align: center;
+  display: inline-block;
+}
+
+div.footer > div.description > div.left > div > a > img {
+  width: 85px;
+  height: 85px;
+  margin-top: 12px;
+}
+div.footer > h5 {
+  text-align: center;
+  font-family: iransans;
+  font-size: 10px;
+  margin-top: 2px;
+}

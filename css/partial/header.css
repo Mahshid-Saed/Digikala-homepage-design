@@ -1,0 +1,326 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+div.header {
+  width: var(--width);
+  height: var(--height);
+}
+div.header > div.first > a {
+  width: var(--width);
+}
+div.header > div.first > a > img {
+  width: inherit;
+}
+div.header > div.second {
+  width: var(--width);
+  height: 60px;
+  margin: 5px auto;
+  display: flex;
+}
+div.header > div.second > div.right {
+  display: inline-block;
+  width: 115px;
+  height: inherit;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div.header > div.second > div.right > a {
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+}
+div.header > div.second > div.right > a > img {
+  width: inherit;
+  height: inherit;
+  padding: 5px;
+}
+div.header > div.second > div.searchbox {
+  width: 650px;
+  height: inherit;
+  display: flex;
+  position: relative;
+}
+
+div.header > div.second > div.searchbox > input {
+  width: inherit;
+  height: inherit;
+  background-color: #f0f0f1;
+  border: none;
+  border-radius: var(--border-radius);
+  padding-right: 50px;
+  font-family: iransans;
+  font-size: larger;
+  font-weight: 800;
+}
+div.header > div.second > div.searchbox > a > i {
+  position: absolute;
+  right: 20px;
+  bottom: 21px;
+  font-weight: 800;
+  font-size: larger;
+  color: #a1a3a8;
+}
+div.header > div.second > div.left {
+  width: max-content;
+  height: 50px;
+  display: flex;
+  line-height: 50px;
+
+  align-items: center;
+  position: absolute;
+  left: 100px;
+}
+div.header > div.second > div.left > a {
+  font-size: 25px;
+  font-weight: 800;
+  color: #616161;
+}
+div.header > div.second > div.left > a:nth-child(2) {
+  padding-left: 15px;
+  border-left: 1px solid #6161612a;
+}
+div.header > div.second > div.left > a:nth-child(3) {
+  padding-right: 15px;
+}
+div.header > div.second > div.left > a:nth-child(1) {
+  padding-right: 5px;
+}
+div.header > div.third {
+  width: var(--width);
+  height: 40px;
+}
+div.header > div.third > div.menu {
+  width: var(--width);
+  height: inherit;
+}
+div.header > div.third > div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+div.header > div.third > div.menu > nav > ul {
+  width: inherit;
+  height: inherit;
+  padding: 0 10px;
+  list-style: none;
+}
+div.header > div.third > div.menu > nav > ul > li {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+  position: relative;
+}
+div.header > div.third > div.menu > nav > ul > li > a {
+  display: block;
+  width: inherit;
+  height: min-content;
+  padding: 0 10px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: iransans;
+  color: unset;
+}
+div.header > div.third > div.menu > nav > ul > li > a > i {
+  font-size: 16px;
+  font-weight: 800;
+  padding: 5px;
+  color: unset;
+}
+div.header > div.third > div.menu > nav > ul > li > a:hover {
+  border-bottom: 3px solid red;
+  transition: all 100ms linear;
+}
+div.header > div.third > div.menu > nav > ul > li:nth-last-child(7) {
+  color: #000000;
+  font-weight: 900;
+  font-size: 16px;
+  border-left: 1px solid #6161614e;
+}
+div.header > div.third > div.menu > nav > ul > li:nth-child(2),
+div.header > div.third > div.menu > nav > ul > li:nth-child(3),
+div.header > div.third > div.menu > nav > ul > li:nth-child(4),
+div.header > div.third > div.menu > nav > ul > li:nth-child(5),
+div.header > div.third > div.menu > nav > ul > li:nth-child(6),
+div.header > div.third > div.menu > nav > ul > li:nth-child(7) {
+  color: #616161;
+}
+div.header > div.third > div.menu > nav > ul > li > div.submenu {
+ width: calc(100vw - 20px);
+ height: 600px;
+ box-shadow: 1px 1px 5px gray;
+ position: absolute;
+ display: none;
+ z-index: 3;
+ 
+}
+div.header > div.third > div.menu > nav > ul > li:hover > div.submenu {
+ display: block;
+ 
+}
+div.header > div.third >div.menu > nav > ul > li > div.submenu > div.right {
+ width: 15%;
+ height: inherit;
+ background-color: #ffffff
+}
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul{
+ width: var(--width);
+ height: inherit;
+ list-style: none;
+    }
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li{
+ width: inherit;
+ height: 50px;
+ margin-bottom: 5px;
+        }
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>a{
+ display: block;
+ width: inherit;
+ height: inherit;
+ line-height: 50px;
+ font-family: iransans;
+ font-weight: bold;
+ font-size: 14px;
+ text-decoration: none;
+ color: black;
+ text-align: center;
+ transition: 200ms;
+            }
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>a>i{
+ font-size: 15px;
+ padding: 5px;
+ color: unset;
+
+}
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>a:hover{
+ background-color:rgb(243, 243, 243);
+ color: crimson;
+            }
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links{
+ width: 85%;
+ height: 600px;
+ position: absolute;
+ left: 0;
+ top: 0;
+ border-right: 1px solid  #d5d4d47a;
+ display: none;
+ z-index: 3;
+ 
+                }
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li:hover>div.links{
+    display: block;
+    background-color: #ffffff;
+    
+   
+}
+                
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4{
+ display: inline-block;
+ width: 20%;
+ height: auto;
+ 
+                }
+                
+
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2>ul,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3>ul,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4>ul
+{
+ width: 100%;
+ height: auto;
+list-style: none;
+position: absolute;
+ top: 0px;
+ z-index: 3;
+              }
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2>ul>li,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3>ul>li,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4>ul>li
+{
+ width: inherit;
+ height: 40px;
+                      }
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2>ul>li,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3>ul>li,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4>ul>li{
+font-size: 15px;
+color: #616161c2;
+font-weight: 800;
+
+
+}
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li>a,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2>ul>li>a,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3>ul>li>a,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4>ul>li>a{
+width: inherit;
+height: auto;
+line-height: 50px;
+font-family: iransans;
+text-decoration: none;
+color: unset;
+padding-right: 20px;
+transition: 200ms;
+                      
+                        }
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li>a>i,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2>ul>li>a>i,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3>ul>li>a>i,
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4>ul>li>a>i{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 5px;
+    color: rgba(255, 0, 0, 0.607);
+
+}
+
+
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(1){
+    color: rgb(32, 32, 32);
+    font-size: 16px;
+    font-weight: 800;
+}
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(2),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(3),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(4),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(5),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(6),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(7),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(8),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(9),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(10),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(11),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(12),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(13),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(14),
+div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li:nth-child(15){
+font-size: 15px;
+color: #616161c2;
+font-weight: 800;
+}
+
+
+ div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.first-1>ul>li>a:hover,
+ div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.second-2>ul>li>a:hover,
+ div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.third-3>ul>li>a:hover,
+ div.header > div.third >div.menu>nav>ul>li>div.submenu>div.right>ul>li>div.links>div.fourth-4>ul>li>a:hover{
+ color: crimson;
+                            }
+
+
+   
+ 
+
+
+ 

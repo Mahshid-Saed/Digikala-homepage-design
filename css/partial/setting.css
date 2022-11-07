@@ -1,0 +1,26 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    width: 100%;
+    height: auto;
+}
+:root{
+    --width:100%;
+    --height: auto;
+    --bgBlack:#000000;
+    --bgRgb:rgb(228, 222, 214);
+    --border-radius: 5px;
+    --bgHover:#f3ecec4d;
+}
+@font-face {
+    font-family:iransans;
+    src: url(../../font/Iranian\ Sans.ttf);
+}

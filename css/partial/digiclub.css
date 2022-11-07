@@ -1,0 +1,130 @@
+/*
+version:1.1.0
+author:Mahshid Saed
+*/
+div.digiclub {
+  width: 1500px;
+  height: 90px;
+  display: flex;
+  background-color: #007295;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+div.digiclub > div.right {
+  width: min-content;
+  height: var(--height);
+}
+div.digiclub > div.right > a > img {
+  width: 160px;
+  margin: 27px 20px 0 150px;
+}
+div.digiclub > div.left {
+  width: auto;
+  height: var(--height);
+  display: inline-block;
+  position: relative;
+}
+div.digiclub > div.left > div.wheel-spinner {
+  display: inline-block;
+  width: 285px;
+  height: 64px;
+  margin: 10px;
+  margin-top: 12px;
+  margin-left: 0px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+
+  right: 263px;
+}
+div.digiclub > div.left > div.wheel-spinner > a > img {
+  width: 168px;
+  height: 64px;
+  position: absolute;
+}
+div.digiclub > div.left > div.wheel-spinner > a:nth-child(1) {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: iransans;
+  color: rgb(0, 0, 0);
+  padding: 17px;
+  line-height: 60px;
+}
+div.digiclub > div.left > div.wheel-spinner > a > i {
+  color: #00bfd6;
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 800;
+}
+div.digiclub > div.left > div.missions {
+  display: inline-block;
+  width: 285px;
+  height: 64px;
+  margin: 10px;
+  margin-top: 12px;
+  margin-left: 0px;
+  background-color: white;
+  position: absolute;
+  right: 570px;
+}
+div.digiclub > div.left > div.missions > a > img {
+  width: 168px;
+  height: 64px;
+  position: absolute;
+  left: 0;
+}
+div.digiclub > div.left > div.missions > a:nth-child(1) {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: iransans;
+  color: rgb(0, 0, 0);
+  padding: 17px;
+  line-height: 60px;
+}
+div.digiclub > div.left > div.missions > a > i {
+  color: #00bfd6;
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 800;
+}
+div.digiclub > div.left > div.awards {
+  display: inline-block;
+  width: 285px;
+  height: 64px;
+  margin: 10px;
+  margin-top: 12px;
+  margin-left: 0px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+
+  right: 860px;
+}
+div.digiclub > div.left > div.awards > a > img {
+  width: 168px;
+  height: 64px;
+  position: absolute;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+div.digiclub > div.left > div.awards > a:nth-child(1) {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: iransans;
+  color: rgb(0, 0, 0);
+  padding: 17px;
+  line-height: 60px;
+}
+div.digiclub > div.left > div.awards > a > i {
+  color: #00bfd6;
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 800;
+}
